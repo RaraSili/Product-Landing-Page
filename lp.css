@@ -1,0 +1,176 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff9f1c;
+}
+
+.logo img{
+  width: 10%;
+}
+
+#nav-bar ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;font-family: arial;
+  font-weight: bold;
+  color: black;
+}
+
+li{
+  padding-right: 80px;
+}
+
+#vid-cont{
+  width: 100%;
+  text-align: center;
+  height: 76%;
+  padding-top: 13%;
+  background: #98c1d9;
+}
+
+#video{
+  width: 50%;
+  height: 70%;
+}
+
+form{
+  text-align: center;
+}
+
+input{
+  width: 40%;
+  height: 7%;
+}
+
+#about{
+  height: 100%;
+  margin: auto;
+  width: 70%;
+}
+
+
+.about-center{
+  margin: 0;
+  position:  relative ;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 33px;
+  font-size: 17px;
+}
+
+#models{
+  height: 100%;
+  background: #98c1d9;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+
+.mod-cont{
+  display: block;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 30px;
+  padding: 30px;
+  border-style:   solid;
+  border-radius: 20px;
+  border-color: white;
+  font-size: 18px;
+  background: #3d5a80;
+}
+
+#models img{
+  width: 50%;
+}
+
+#models p{
+  text-align: justify;
+}
+
+#email-cont{
+  padding: 16%;
+}
+
+input{
+  width: 60%;
+}
+
+@media (min-height: 667px) {
+  header{
+    display: none;
+  }
+
+  #vid-cont{
+    height: 70%;
+  }
+
+  #video{
+    width: 80%;
+    height: 60%;
+  }
+
+  #about{
+    height: 70%;
+    width: 70%;
+  }
+
+  .about-center{
+    top: 50%;
+    line-height: 43px;
+    font-size: 30px;
+  }
+
+  #models{
+    padding-top: 20px;
+    height: auto;
+    display:block;
+
+  }
+
+  .mod-cont{
+    margin: 100px;
+    padding: 30px;
+    font-size: 26px;
+    line-height: 35px
+  }
+
+  #models p{
+    text-align: justify;
+  }
+
+  #email-cont{
+    padding: 16%;
+    font-size: 30px;
+  }
+
+  #email{
+    width: 90%;
+    height: 4%;
+    font-size: 20px;
+  }
+
+  #submit{
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 600px){
+  #models{
+    padding-top: 10px;
+    height: auto;
+}
